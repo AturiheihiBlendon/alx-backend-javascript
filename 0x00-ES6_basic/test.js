@@ -5,7 +5,15 @@
 
 // Task 1 test Case
 
-import taskBlock from './1-block-scoped.js';
+// import taskBlock from './1-block-scoped.js';
 
-console.log(taskBlock(true));
-console.log(taskBlock(false));
+// console.log(taskBlock(true));
+// console.log(taskBlock(false));
+
+// Task 2 test case
+
+import getNeighborhoodsList from './2-arrow.js';
+
+const neighborhoodsList = new getNeighborhoodsList();
+const res = neighborhoodsList.addNeighborhood('Noe Valley');
+console.log(res);
