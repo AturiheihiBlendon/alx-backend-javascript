@@ -33,6 +33,11 @@
 // console.log(returnHowManyArguments("one", "two", 3, "4th"));
 
 // Task  5 test case
-import concatArrays from './5-spread-operator.js';
+// import concatArrays from './5-spread-operator.js';
 
-console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+// console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+
+// task 6 test case
+import getSanFranciscoDescription from './6-string-interpolation.js';
+
+console.log(getSanFranciscoDescription());
