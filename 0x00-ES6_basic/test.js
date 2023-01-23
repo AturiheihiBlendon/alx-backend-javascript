@@ -27,7 +27,12 @@
 
 // task 4 test case
 
-import returnHowManyArguments from './4-rest-parameter.js';
+// import returnHowManyArguments from './4-rest-parameter.js';
 
-console.log(returnHowManyArguments("one"));
-console.log(returnHowManyArguments("one", "two", 3, "4th"));
+// console.log(returnHowManyArguments("one"));
+// console.log(returnHowManyArguments("one", "two", 3, "4th"));
+
+// Task  5 test case
+import concatArrays from './5-spread-operator.js';
+
+console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
