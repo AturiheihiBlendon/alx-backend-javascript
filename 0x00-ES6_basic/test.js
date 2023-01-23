@@ -18,9 +18,16 @@
 // const res = neighborhoodsList.addNeighborhood('Noe Valley');
 // console.log(res);
 
-// Task 2 test case
-import getSumOfHoods from './3-default-parameter.js';
+// Task 3 test case
+// import getSumOfHoods from './3-default-parameter.js';
 
-console.log(getSumOfHoods(34));
-console.log(getSumOfHoods(34, 3));
-console.log(getSumOfHoods(34, 3, 4));
+// console.log(getSumOfHoods(34));
+// console.log(getSumOfHoods(34, 3));
+// console.log(getSumOfHoods(34, 3, 4));
+
+// task 4 test case
+
+import returnHowManyArguments from './4-rest-parameter.js';
+
+console.log(returnHowManyArguments("one"));
+console.log(returnHowManyArguments("one", "two", 3, "4th"));
