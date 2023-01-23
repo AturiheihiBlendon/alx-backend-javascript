@@ -3,7 +3,6 @@
 
 // console.log(`${taskFirst()} ${taskNext()}`);
 
-
 // Task 1 test Case
 
 import taskBlock from './1-block-scoped.js';
