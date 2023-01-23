@@ -43,6 +43,19 @@
 // console.log(getSanFranciscoDescription());
 
 // Task 7 test case
-import getBudgetObject from './7-getBudgetObject.js';
+// import getBudgetObject from './7-getBudgetObject.js';
 
-console.log(getBudgetObject(400, 700, 900));
+// console.log(getBudgetObject(400, 700, 900));
+
+// Task 8ntest case
+// import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
+
+// console.log(getBudgetForCurrentYear(2100, 5200, 1090));
+
+// Task 9 testcase
+import getFullBudgetObject from './9-getFullBudget.js';
+
+const fullBudget = getFullBudgetObject(20, 50, 10);
+
+console.log(fullBudget.getIncomeInDollars(fullBudget.income));
+console.log(fullBudget.getIncomeInEuros(fullBudget.income));
