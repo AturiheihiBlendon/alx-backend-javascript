@@ -61,6 +61,11 @@
 // console.log(fullBudget.getIncomeInEuros(fullBudget.income));
 
 // Task 10 test case
-import appendToEachArrayValue from './10-loops.js';
+// import appendToEachArrayValue from './10-loops.js';
 
-console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
+// console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
+
+// Task 11 test case
+import createEmployeesObject from './11-createEmployeesObject.js';
+
+console.log(createEmployeesObject('Software', ['Bob', 'Sylvie']));
