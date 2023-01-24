@@ -18,6 +18,11 @@
 
 // Task 3 test case
 
-import handleProfileSignup from "./3-all";
+// import handleProfileSignup from "./3-all";
 
-handleProfileSignup();
+// handleProfileSignup();
+
+// Task 4 test case
+import signUpUser from "./4-user-promise";
+
+console.log(signUpUser("Bob", "Dylan"));
