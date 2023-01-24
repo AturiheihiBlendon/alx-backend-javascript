@@ -22,7 +22,12 @@
 
 // handleProfileSignup();
 
-// Task 4 test case
-import signUpUser from "./4-user-promise";
+// // Task 4 test case
+// import signUpUser from "./4-user-promise";
 
-console.log(signUpUser("Bob", "Dylan"));
+// console.log(signUpUser("Bob", "Dylan"));
+
+// Task 5 test case
+import uploadPhoto from './5-photo-reject';
+
+console.log(uploadPhoto('guillaume.jpg'));
