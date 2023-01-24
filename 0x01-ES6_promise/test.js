@@ -11,7 +11,13 @@
 // console.log(getFullResponseFromAPI(false));
 
 // Task2 test case
-import handleResponseFromAPI from "./2-then";
+// import handleResponseFromAPI from "./2-then";
 
-const promise = Promise.resolve();
-handleResponseFromAPI(promise);
+// const promise = Promise.resolve();
+// handleResponseFromAPI(promise);
+
+// Task 3 test case
+
+import handleProfileSignup from "./3-all";
+
+handleProfileSignup();
