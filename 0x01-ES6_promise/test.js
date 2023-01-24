@@ -1,5 +1,11 @@
 // Task 0 test case
-import getResponseFromAPI from "./0-promise.js";
+// import getResponseFromAPI from "./0-promise.js";
 
-const response = getResponseFromAPI();
-console.log(response instanceof Promise);
+// const response = getResponseFromAPI();
+// console.log(response instanceof Promise);
+
+// Task 1 test case
+import getFullResponseFromAPI from './1-promise';
+
+console.log(getFullResponseFromAPI(true));
+console.log(getFullResponseFromAPI(false));
