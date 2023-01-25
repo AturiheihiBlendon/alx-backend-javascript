@@ -64,7 +64,14 @@
 
 // Task 8 test case
 
+// import divideFunction from './8-try';
+
+// console.log(divideFunction(10, 2));
+// console.log(divideFunction(10, 0));
+
+//  task 9 test case
+import guardrail from './9-try';
 import divideFunction from './8-try';
 
-console.log(divideFunction(10, 2));
-console.log(divideFunction(10, 0));
+console.log(guardrail(() => { return divideFunction(10, 2)}));
+console.log(guardrail(() => { return divideFunction(10, 0)}));
