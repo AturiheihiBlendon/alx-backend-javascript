@@ -28,6 +28,11 @@
 // console.log(signUpUser("Bob", "Dylan"));
 
 // Task 5 test case
-import uploadPhoto from './5-photo-reject';
+// import uploadPhoto from './5-photo-reject';
 
-console.log(uploadPhoto('guillaume.jpg'));
+// console.log(uploadPhoto('guillaume.jpg'));
+
+// Task 6 test case
+import handleProfileSignup from './6-final-user';
+
+console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
