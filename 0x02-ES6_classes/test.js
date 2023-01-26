@@ -49,16 +49,25 @@
 
 // Task 5 test case
 
-import Building from './5-building.js';
+// import Building from './5-building.js';
 
-const b = new Building(100);
-console.log(b);
+// const b = new Building(100);
+// console.log(b);
 
-class TestBuilding extends Building {}
+// class TestBuilding extends Building {}
 
-try {
-    new TestBuilding(200)
-}
-catch(err) {
-    console.log(err);
-}
+// try {
+//     new TestBuilding(200)
+// }
+// catch(err) {
+//     console.log(err);
+// }
+
+// Task 6 test case
+
+import SkyHighBuilding from './6-sky_high.js';
+
+const building = new SkyHighBuilding(140, 60);
+console.log(building.sqft);
+console.log(building.floors);
+console.log(building.evacuationWarningMessage());
