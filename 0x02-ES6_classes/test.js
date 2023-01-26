@@ -80,8 +80,19 @@
 // console.log(airportSF.toString());
 
 // Task 8 test case
-import HolbertonClass from "./8-hbtn_class.js";
+// import HolbertonClass from "./8-hbtn_class.js";
 
-const hc = new HolbertonClass(12, "Mezzanine")
-console.log(Number(hc));
-console.log(String(hc));
+// const hc = new HolbertonClass(12, "Mezzanine")
+// console.log(Number(hc));
+// console.log(String(hc));
+
+// Task 9 test case
+import listOfStudents from "./9-hoisting.js";
+
+console.log(listOfStudents);
+
+const listPrinted = listOfStudents.map(
+    student => student.fullStudentDescription
+);
+
+console.log(listPrinted)
