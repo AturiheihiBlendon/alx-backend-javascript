@@ -87,12 +87,28 @@
 // console.log(String(hc));
 
 // Task 9 test case
-import listOfStudents from "./9-hoisting.js";
+// import listOfStudents from "./9-hoisting.js";
 
-console.log(listOfStudents);
+// console.log(listOfStudents);
 
-const listPrinted = listOfStudents.map(
-    student => student.fullStudentDescription
-);
+// const listPrinted = listOfStudents.map(
+//     student => student.fullStudentDescription
+// );
 
-console.log(listPrinted)
+// console.log(listPrinted)
+
+// Task 10 test case
+import Car from "./10-car.js";
+
+class TestCar extends Car {}
+
+const tc1 = new TestCar("Nissan", "Turbo", "Pink");
+const tc2 = tc1.cloneCar();
+
+console.log(tc1);
+console.log(tc1 instanceof TestCar);
+
+console.log(tc2);
+console.log(tc2 instanceof TestCar);
+
+console.log(tc1 == tc2);
