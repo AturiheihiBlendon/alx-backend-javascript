@@ -38,9 +38,12 @@ export default class HolbertonCourse {
 
   // students setter
   set students(val) {
+    if (!Array.isArray(val)) {
+      throw new TypeError('Students must be an array');
+    }
     val.forEach((student) => {
       if (typeof student !== 'string') {
-        throw new TypeError('Students must be an array of strings');
+        throw new TypeError('Student must be a string');
       }
     });
     this._students = val;
