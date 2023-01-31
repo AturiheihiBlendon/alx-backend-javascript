@@ -47,8 +47,14 @@
 // console.log(setFromArray([12, 32, 15, 78, 98, 15]));
 
 // Task 7 test case
-import hasValuesFromArray from "./7-has_array_values.js";
+// import hasValuesFromArray from "./7-has_array_values.js";
 
-console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1]));
-console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [10]));
-console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
+// console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1]));
+// console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [10]));
+// console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
+
+// Task 8 test case
+import cleanSet from "./8-clean_set.js";
+
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 'bon'));
+console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), ''));
