@@ -37,6 +37,11 @@
 
 // Task  5 test case
 
-import createInt8TypedArray from "./5-typed_arrays.js";
+// import createInt8TypedArray from "./5-typed_arrays.js";
 
-console.log(createInt8TypedArray(10, 2, 89));
+// console.log(createInt8TypedArray(10, 2, 89));
+
+// Task 6 test case
+import setFromArray from "./6-set.js";
+
+console.log(setFromArray([12, 32, 15, 78, 98, 15]));
