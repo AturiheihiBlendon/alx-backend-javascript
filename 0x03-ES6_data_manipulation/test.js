@@ -54,7 +54,12 @@
 // console.log(hasValuesFromArray(new Set([1, 2, 3, 4, 5]), [1, 10]));
 
 // Task 8 test case
-import cleanSet from "./8-clean_set.js";
+// import cleanSet from "./8-clean_set.js";
 
-console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 'bon'));
-console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), ''));
+// console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), 'bon'));
+// console.log(cleanSet(new Set(['bonjovi', 'bonaparte', 'bonappetit', 'banana']), ''));
+
+// Task 9 test case
+import groceriesList from "./9-groceries_list.js";
+
+console.log(groceriesList());
