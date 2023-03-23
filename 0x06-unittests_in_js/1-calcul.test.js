@@ -26,4 +26,12 @@ describe('Test advanced calculateNumber()', function() {
             // assert.strictEqual(calculateNumber('DIVIDE', 1.4, 0), 'Error')
         })
     })
+
+    describe("Tests invalid operator type", function(){
+        it('return invalid operator message', function(){
+            assert.throws(() => calculateNumber(INVALID, 5.7, 4.6), {
+                message:
+                'INVALID is not defined'});
+        })
+    })
 })
