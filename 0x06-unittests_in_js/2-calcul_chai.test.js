@@ -25,7 +25,7 @@ describe('Test advanced calculateNumber()', function() {
 
     describe('Tests DIVIVDE () with 0:', function(){
         it('return Error', function() {
-            expect(calculateNumber('DIVIDE', 8.3, 0)).to.equal(Infinity)
+            expect(calculateNumber('DIVIDE', 8.3, 0)).to.equal('Error')
         })
     })
 })
